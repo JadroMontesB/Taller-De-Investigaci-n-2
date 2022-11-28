@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+/* font-family: 'Montserrat', sans-serif */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+/* font-family: 'Dosis', sans-serif; */
+
+
+/* Carrusel */
+
+.carru img {
+
+    height: 800px;
+    width: 700px;
+}
+
+
+p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+.info-1 img {
+
+    width: 100%;
+
+}
+
+.info-1 h2 {
+
+    color: red;
+    text-shadow: 2px 1px  blue;
+    font-family: 'Montserrat', sans-serif
+}
+
+.info-2 h2 {
+
+    color: red;
+    text-shadow: 2px 1px  blue;
+    font-family: 'Montserrat', sans-serif
+}
+
+
+.info-2 li{
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+.info-3 h2{
+    
+    color: red;
+    text-shadow: 2px 1px  blue;
+    font-family: 'Montserrat', sans-serif
+}
+
+.info-3 h3{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+
+
+.info-3 img{
+
+    width: 90%;
+}
+
+.info-3 a{
+
+    color: whitesmoke;
+}
+
+.info-3 a:hover{
+
+    color: rgb(0, 0, 0);
+}
+
+.info-3 > .flex-container p {
+
+    font-size: 15px;
+}
+
+
+.info-4 > .intro h2{
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #1B396A;
+    text-shadow: 1px 1px rgb(163, 163, 82);
+
+
+}
+
+.info-4 > .intro p{
+
+    text-align: center;
+
+}
+
+.info-4 > .intro img{
+
+    width: 220px;
+    height: 220px;
+    display:block;
+    margin:auto;
+
+}
+
+
+.objetivos p{
+
+    text-align: center;
+    
+
+}
+
+.marco h2 {
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #1B396A;
+    text-shadow: 1px 1px rgb(163, 163, 82);
+
+}
+
+.marco h3 {
+
+    font-weight: bold;
+
+}
+
+.marco p {
+
+    text-align: center;
+}
+
+
+.objetivos h2{
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #1B396A;
+    text-shadow: 1px 1px rgb(163, 163, 82);
+}
+
+.objetivos h3 {
+
+    font-size: 19px;
+    font-family: 'Dosis', sans-serif; 
+}
+
+.objetivos li{
+
+    font-size: 15px;
+}
+
+
+.encuestas h3{
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #1B396A;
+    text-shadow: 1px 1px rgb(163, 163, 82);
+}
+
+
+.encuestas img {
+
+    height: 350px;
+    width: 700px;
+    
+
+}
+
+.encuestas p {
+
+    text-align: left!important;
+    font-size: 16px!important;
+}
+
+.conclu h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #1B396A;
+    text-shadow: 1px 1px rgb(163, 163, 82);
+}
+
+
+
+
+
+/* FlexBox */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-container p{
+
+    font-size: 14px;
+    text-align: center;
+}
+
+.flex-item-1 {
+
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-2 {
+
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-3 {
+    padding: 10px;
+    flex: 50%;
+}
+
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    
+.carru img {
+
+    height: 450px;
+    width: 350px;
+}
+
+}
+
